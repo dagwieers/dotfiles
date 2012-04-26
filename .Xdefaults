@@ -1,0 +1,132 @@
+#rxvt*font: -b&h-lucidatypewriter-medium-r-normal-*-*-120-*-*-m-*-iso8859-1
+#root*font: -b&h-lucidatypewriter-medium-r-normal-*-*-120-*-*-m-*-iso8859-1
+#xterm*iconName: gnome-term-tiger
+#xterm*inheritPixmap: off
+#rxvt*backgroundPixmap: /usr/local/share/pixmaps/black-4.xpm
+
+XTerm*sessionMgt: false
+XTerm*saveLines: 16000
+XTerm*scrollBar: false
+XTerm*font: 7x14
+XTerm*charClass: 33:48,37:48,45-47:48,58:48,64:48,126:48
+XTerm*activeIcon: true
+XTerm*color4: rgb:70/70/ff
+XTerm*color12: rgb:a0/a0/ff
+#XTerm*trimSelection: true
+#XTerm*reverseWrap: true
+#XTerm*fullCursor: true
+#XTerm*titleBar: false
+#XTerm*reverseVideo: false
+#XTerm*faceName: Courier
+#XTerm*faceSize: 12
+#XTerm*scrollTtyOutput: off
+#XTerm*scrollKey: on
+XTerm*visualBell: on
+XTerm*selectToClipboard: true
+XTerm*sessionMgt: false
+XTerm*geometry: 90x30
+
+XTerm*foreground: rgb:ff/ff/ff
+XTerm*background: rgb:00/00/00
+#XTerm*iconPixmap: terminal
+#xterm*iconPixmap: /usr/share/pixmaps/gnome-gemvt.xbm
+#local*iconMask: /usr/share/pixmaps/gnome-gemvt-mask.xbm
+#xterm*iconPixmap: keyboard16
+
+local*foreground: rgb:e0/e0/ff
+local*background: rgb:00/00/18
+local*cursorColor: rgb:c0/c0/ff
+#local*iconPixmap: /usr/share/pixmaps/gnome-gemvt.xbm
+#local*iconPixmap: /usr/share/pixmaps/gnome-term-linux2.xbm
+#local*iconMask: /usr/share/pixmaps/gnome-gemvt-mask.xbm
+#local*iconPixmap: /usr/share/pixmaps/gnome-term-tiger.png
+#local*iconPixmap: keyboard16
+
+work*foreground: rgb:e0/ff/e0
+work*background: rgb:00/18/00
+work*cursorColor: rgb:c0/ff/c0
+#work*iconPixmap: starMask
+
+root*foreground: rgb:ff/e0/e0
+root*background: rgb:18/00/00
+root*cursorColor: rgb:ff/c0/c0
+root*iconPixmap: star
+
+xterm*foreground: rgb:ff/e0/ff
+xterm*background: rgb:18/00/18
+xterm*cursorColor: rgb:ff/c0/ff
+#xterm*iconPixmap: terminal
+
+#xterm*VT100.Translations: #override<Key>BackSpace: string(0x7F)\n\
+#        <Key>Delete:    string(0x04)\n\
+#        <Key>Home:      string(0x01)\n\
+#        <Key>End:       string(0x05)\n\
+#        <KeyPress>Prior : scroll-back(1,page)\n\
+#        <KeyPress>Next : scroll-forw(1,page)
+
+Xft.hinting: true
+Xft.hintstyle: hintslight
+Xft.antialias: true
+Xft.rgba: none
+Xft.dpi: 90
+
+xosview*cpuGraph: false
+
+xdvi*shrinkButton1: 7
+xdvi*shrinkButton2: 8
+xdvi*shrinkButton3: 9
+xdvi*shrinkButton4: 10
+
+#gvim*font: -biznet-courier-medium-r-normal-*-*-80-*-*-m-*-iso8859-2
+gvim*font: -schumacher-clean-medium-r-normal-*-*-140-*-*-c-*-iso8859-1
+
+plan*calArrowWidth:     5
+plan*calArrowWidthSm:   4
+plan*calBoxHeight:     100 
+plan*calBoxHeightSm:    54
+plan*calBoxMargin:      3
+plan*calBoxMarginSm:    10
+plan*calBoxTitle:       25
+plan*calBoxWidth:       135
+plan*calBoxWidthSm:     90
+plan*calNoteFont:       -*-helvetica-medium-r-*-*-10-*
+plan*calNumberFont:     -*-helvetica-bold-r-*-*-12-*
+plan*calNumberFontSm:   -*-helvetica-bold-r-*-*-8-*
+plan*dayBarWidth:       100
+plan*dayGap:            4
+plan*dayHeadline:       15
+plan*dayHourHeight:     32
+plan*dayHourWidth:      80
+plan*dayMargin:         26
+plan*fontList:          -*-helvetica-*-r-normal-*-12-*
+plan*frameToday:        False
+plan*helpFont:          -*-helvetica-medium-r-normal-*-12-*
+plan*menubar*fontList:  -*-helvetica-*-r-normal-*-12-*
+plan*noIcon:            False
+plan*noMonthShadow:     False
+plan*noteWidth:         178
+plan*showIconDate:      False
+plan*showIconTime:      True
+plan*weekBarGap:        0
+plan*weekBarHeight:     20
+plan*weekDayFont:       -*-helvetica-*-o-*-*-10-*
+plan*weekDayWidth:      80
+plan*weekGap:           2
+plan*weekHourFont:      -*-helvetica-*-r-*-*-8-*
+plan*weekHourWidth:     40
+plan*weekMargin:        4
+plan*weekMaxNote:       200
+plan*weekNoteFont:      -*-helvetica-medium-r-*-*-10-*
+plan*weekTitleFont:     -*-helvetica-*-r-*-*-10-*
+plan*yearBoxHeight:     14
+plan*yearBoxWidth:      30
+plan*yearGap:           20
+plan*yearMargin:        20
+plan*yearMonthFont:     -*-helvetica-*-o-*-*-12-*
+plan*yearNumberFont:    -*-helvetica-*-r-*-*-12-*
+plan*yearTitle:         30
+plan*yearTitleFont:     -*-helvetica-*-r-*-*-12-*
+plan*yearWeekdayFont:   -*-helvetica-*-o-*-*-8-*
+plan*yovDayWidth:       24
+plan*yovWHeight:        400
+plan*yovWWidth:         870
